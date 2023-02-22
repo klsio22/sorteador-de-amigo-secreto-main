@@ -1,8 +1,9 @@
 export function Form() {
   return (
-    <div>
+    <form>
+      <h1>Formulario</h1>
       <input type='text' placeholder='Insira os nomes dos participantes' />
       <button disabled={true}>Adicionar</button>
-    </div>
+    </form>
   );
 }
