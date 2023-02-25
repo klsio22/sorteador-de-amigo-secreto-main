@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { Form } from '../components/Form';
+import { Form } from '../components/form/Form';
 
 test("when input is empty,new participation can't be added", () => {
   render(<Form />);

@@ -1,9 +1,13 @@
+import './styles.css';
+
 export function Form() {
   return (
-    <form>
+    <form className='form'>
       <h1>Formulario</h1>
       <input type='text' placeholder='Insira os nomes dos participantes' />
-      <button disabled={true}>Adicionar</button>
+      <button disabled={true} className='add'>
+        Adicionar
+      </button>
     </form>
   );
 }
